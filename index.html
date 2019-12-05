@@ -68,12 +68,12 @@
 			maxNativeZoom: 12, 
 			attribution: ""
 		});
-		var google = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-			subdomains:['mt0','mt1','mt2','mt3'],
-            attribution: 'Imagery &copy; 2019 Google, Map data &copy; 2019 <a target="_blank" href="https://www.google.com/intl/en_uk/help/terms_maps/">Terms</a>',
-            opacity: 0.5,
-            maxZoom: 18
-		});
+		//var google = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+		//	subdomains:['mt0','mt1','mt2','mt3'],
+        //    attribution: 'Imagery &copy; 2019 Google, Map data &copy; 2019 <a target="_blank" href="https://www.google.com/intl/en_uk/help/terms_maps/">Terms</a>',
+        //    opacity: 0.5,
+        //    maxZoom: 18
+		//});
 		var googlebase = L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
 			subdomains:['mt0','mt1','mt2','mt3'],
             attribution: 'Imagery &copy; 2019 Google, Map data &copy; 2019 <a target="_blank" href="https://www.google.com/intl/en_uk/help/terms_maps/">Terms</a>',
@@ -90,7 +90,7 @@
         });
 
         var basemaps = {"OpenStreetMap": osm, "Grey background": grey, "Satellite": googlebase}
-        var overlaymaps = {"EU-DEM": lyr2, "Bath": lyr1, "Layer": lyr, "Satellite": google}
+        var overlaymaps = {"EU-DEM": lyr2, "Bath": lyr1, "Layer": lyr}
 
         // Title
         var title = L.control();

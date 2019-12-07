@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>Gillingham_DSM_2M_Hill_Rend.tif</Title>
+      <Title>Wiltshire_Edge_DSM_2M_Hill_Rend.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-2.42953217459297" miny="50.97861222187579" maxx="-2.00135644571596" maxy="51.06932462179228"/>
-      <Origin x="-2.42953217459297" y="50.97861222187579"/>
+      <BoundingBox minx="-2.00137211865940" miny="50.97931800505193" maxx="-1.85837538111825" maxy="51.15924604181447"/>
+      <Origin x="-2.00137211865940" y="50.97931800505193"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="8" units-per-pixel="611.49622617187504" order="8"/>
